@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "ios-cog-outline-47ef3fd8a3a2633c4a3abbc53e408b38.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

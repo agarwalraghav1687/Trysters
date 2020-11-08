@@ -3,19 +3,35 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1C0F622520C3BC00F0BCF9 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C0F612520C3BC00F0BCF9 /* PostViewController.swift */; };
+		5A1C0F652520C5AA00F0BCF9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C0F642520C5AA00F0BCF9 /* ProfileViewController.swift */; };
+		803EAD472503B18C00E0E909 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803EAD462503B18C00E0E909 /* Utilities.swift */; };
 		804902A22503A22C00393F81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804902A12503A22C00393F81 /* AppDelegate.swift */; };
 		804902A42503A22C00393F81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804902A32503A22C00393F81 /* SceneDelegate.swift */; };
 		804902A62503A22C00393F81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804902A52503A22C00393F81 /* ViewController.swift */; };
 		804902A92503A22C00393F81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804902A72503A22C00393F81 /* Main.storyboard */; };
 		804902AB2503A23400393F81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 804902AA2503A23400393F81 /* Assets.xcassets */; };
 		804902AE2503A23400393F81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 804902AC2503A23400393F81 /* LaunchScreen.storyboard */; };
+		804902B62503A2E000393F81 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804902B52503A2E000393F81 /* SignupViewController.swift */; };
+		804902B82503A2EF00393F81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804902B72503A2EF00393F81 /* LoginViewController.swift */; };
+		804902BA2503A30100393F81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 804902B92503A30100393F81 /* HomeViewController.swift */; };
+		804D28BA2504F0FD0047D578 /* CURENTINE.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 804D28B92504F0FD0047D578 /* CURENTINE.mp4 */; };
+		80AE5ECE2503C30F007FCF74 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80AE5ECD2503C30F007FCF74 /* GoogleService-Info.plist */; };
+		80B015E22503DA8C00B889D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B015E12503DA8C00B889D6 /* Constants.swift */; };
+		80E088C82519282800D994DC /* picUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E088C72519282800D994DC /* picUpload.swift */; };
+		E0F1C216B5B45C22D2638EA6 /* Pods_curentine2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4525CFAABC2B31452C9DB3C /* Pods_curentine2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		124AE759B6289B602D5B9B83 /* Pods-curentine2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curentine2.release.xcconfig"; path = "Target Support Files/Pods-curentine2/Pods-curentine2.release.xcconfig"; sourceTree = "<group>"; };
+		4339C5A60879B231D155AE01 /* Pods-curentine2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curentine2.debug.xcconfig"; path = "Target Support Files/Pods-curentine2/Pods-curentine2.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1C0F612520C3BC00F0BCF9 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		5A1C0F642520C5AA00F0BCF9 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		803EAD462503B18C00E0E909 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		8049029E2503A22C00393F81 /* curentine2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curentine2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		804902A12503A22C00393F81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		804902A32503A22C00393F81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,14 @@
 		804902AA2503A23400393F81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		804902AD2503A23400393F81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		804902AF2503A23400393F81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		804902B52503A2E000393F81 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		804902B72503A2EF00393F81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		804902B92503A30100393F81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		804D28B92504F0FD0047D578 /* CURENTINE.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = CURENTINE.mp4; sourceTree = "<group>"; };
+		80AE5ECD2503C30F007FCF74 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80B015E12503DA8C00B889D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		80E088C72519282800D994DC /* picUpload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picUpload.swift; sourceTree = "<group>"; };
+		D4525CFAABC2B31452C9DB3C /* Pods_curentine2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_curentine2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F1C216B5B45C22D2638EA6 /* Pods_curentine2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13E79422822F2438DD7C3C4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4339C5A60879B231D155AE01 /* Pods-curentine2.debug.xcconfig */,
+				124AE759B6289B602D5B9B83 /* Pods-curentine2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		803EAD482503B2E400E0E909 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				803EAD462503B18C00E0E909 /* Utilities.swift */,
+				80B015E12503DA8C00B889D6 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		804902952503A22C00393F81 = {
 			isa = PBXGroup;
 			children = (
 				804902A02503A22C00393F81 /* curentine2 */,
 				8049029F2503A22C00393F81 /* Products */,
+				13E79422822F2438DD7C3C4C /* Pods */,
+				AFB8B613FA66FBE50DC02EBE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +101,48 @@
 		804902A02503A22C00393F81 /* curentine2 */ = {
 			isa = PBXGroup;
 			children = (
+				804D28B82504E3780047D578 /* Media */,
+				803EAD482503B2E400E0E909 /* Helpers */,
+				804902BB2503A30F00393F81 /* View Controllers */,
 				804902A12503A22C00393F81 /* AppDelegate.swift */,
 				804902A32503A22C00393F81 /* SceneDelegate.swift */,
-				804902A52503A22C00393F81 /* ViewController.swift */,
 				804902A72503A22C00393F81 /* Main.storyboard */,
 				804902AA2503A23400393F81 /* Assets.xcassets */,
 				804902AC2503A23400393F81 /* LaunchScreen.storyboard */,
 				804902AF2503A23400393F81 /* Info.plist */,
+				80AE5ECD2503C30F007FCF74 /* GoogleService-Info.plist */,
 			);
 			path = curentine2;
+			sourceTree = "<group>";
+		};
+		804902BB2503A30F00393F81 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				804902A52503A22C00393F81 /* ViewController.swift */,
+				804902B52503A2E000393F81 /* SignupViewController.swift */,
+				804902B72503A2EF00393F81 /* LoginViewController.swift */,
+				804902B92503A30100393F81 /* HomeViewController.swift */,
+				80E088C72519282800D994DC /* picUpload.swift */,
+				5A1C0F612520C3BC00F0BCF9 /* PostViewController.swift */,
+				5A1C0F642520C5AA00F0BCF9 /* ProfileViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		804D28B82504E3780047D578 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				804D28B92504F0FD0047D578 /* CURENTINE.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		AFB8B613FA66FBE50DC02EBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4525CFAABC2B31452C9DB3C /* Pods_curentine2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +152,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 804902B22503A23400393F81 /* Build configuration list for PBXNativeTarget "curentine2" */;
 			buildPhases = (
+				AA2011092E5909781301DE28 /* [CP] Check Pods Manifest.lock */,
 				8049029A2503A22C00393F81 /* Sources */,
 				8049029B2503A22C00393F81 /* Frameworks */,
 				8049029C2503A22C00393F81 /* Resources */,
+				09E853FE5890FAC15BA79260 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +206,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				804902AE2503A23400393F81 /* LaunchScreen.storyboard in Resources */,
+				804D28BA2504F0FD0047D578 /* CURENTINE.mp4 in Resources */,
+				80AE5ECE2503C30F007FCF74 /* GoogleService-Info.plist in Resources */,
 				804902AB2503A23400393F81 /* Assets.xcassets in Resources */,
 				804902A92503A22C00393F81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09E853FE5890FAC15BA79260 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-curentine2/Pods-curentine2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-curentine2/Pods-curentine2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-curentine2/Pods-curentine2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA2011092E5909781301DE28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-curentine2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8049029A2503A22C00393F81 /* Sources */ = {
@@ -140,7 +264,15 @@
 			files = (
 				804902A62503A22C00393F81 /* ViewController.swift in Sources */,
 				804902A22503A22C00393F81 /* AppDelegate.swift in Sources */,
+				803EAD472503B18C00E0E909 /* Utilities.swift in Sources */,
+				804902B62503A2E000393F81 /* SignupViewController.swift in Sources */,
+				5A1C0F622520C3BC00F0BCF9 /* PostViewController.swift in Sources */,
+				804902B82503A2EF00393F81 /* LoginViewController.swift in Sources */,
+				5A1C0F652520C5AA00F0BCF9 /* ProfileViewController.swift in Sources */,
 				804902A42503A22C00393F81 /* SceneDelegate.swift in Sources */,
+				80E088C82519282800D994DC /* picUpload.swift in Sources */,
+				804902BA2503A30100393F81 /* HomeViewController.swift in Sources */,
+				80B015E22503DA8C00B889D6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +414,7 @@
 		};
 		804902B32503A23400393F81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4339C5A60879B231D155AE01 /* Pods-curentine2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +432,7 @@
 		};
 		804902B42503A23400393F81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124AE759B6289B602D5B9B83 /* Pods-curentine2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
